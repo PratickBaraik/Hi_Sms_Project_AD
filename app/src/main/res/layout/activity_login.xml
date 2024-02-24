@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:hint="Enter username"
+        android:hint="@string/login_username_hint"
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:hint="Enter password"
+        android:hint="@string/login_password_hint"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -43,7 +43,7 @@
         android:layout_margin="12dp"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:text="LOGIN"
+        android:text="@string/login_button"
         android:textSize="16sp" />
 
     <TextView
@@ -52,6 +52,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:gravity="center"
-        android:text="I don't have an account"
+        android:text="@string/login_register_message"
         android:textSize="16sp" />
 </LinearLayout>

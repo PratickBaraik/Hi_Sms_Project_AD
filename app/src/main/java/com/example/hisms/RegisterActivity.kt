@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.Toast
-import kotlin.properties.Delegates
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -25,11 +24,8 @@ class RegisterActivity : AppCompatActivity() {
         val mainButton = findViewById<Button>(R.id.mainActivity)
 
         mainButton.setOnClickListener{
-            //val myIntent = Intent(this, MainActivity::class.java)
-            //startActivity(myIntent)
 
             name = (R.id.fullNameText).toString()
-            //Toast.makeText(this, "$name", Toast.LENGTH_SHORT).show()
             password = (R.id.passwordText).toString()
             rePass = (R.id.rePasswordText).toString()
             email = (R.id.emailText).toString()
@@ -38,9 +34,9 @@ class RegisterActivity : AppCompatActivity() {
             if(TextUtils.isEmpty(name) || TextUtils.isEmpty(password) || TextUtils.isEmpty(rePass) || TextUtils.isEmpty(email) || TextUtils.isEmpty(phNumber)) {
                 Toast.makeText(this, "Please fill all the details", Toast.LENGTH_SHORT).show()
             } else {
-                val myIntent = Intent(this, MainActivity::class.java)
-                startActivity(myIntent)
-                //Toast.makeText(MainActivity::class.java, "Registration Successfull!", Toast.LENGTH_SHORT).show()
+                //val myIntent = Intent(this, MainActivity::class.java)
+                //startActivity(myIntent)
+                //Toast.makeText(MainActivity::class.java, "Registration Successful!", Toast.LENGTH_SHORT).show()
             }
 
         }

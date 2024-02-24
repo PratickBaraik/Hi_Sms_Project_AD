@@ -1,3 +1,16 @@
 <resources>
+    <!-- string resources for activity_login.xml file -->
     <string name="app_name">HiSms</string>
+    <string name="login_username_hint">Enter username</string>
+    <string name="login_password_hint">Enter password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login_register_message">I don\'t have an account</string>
+
+    <!-- string resources for activity_register.xml file -->
+    <string name="register_full_name_hint">Enter full name</string>
+    <string name="register_password_hint">Enter password</string>
+    <string name="register_re_password_hint">Re-enter password</string>
+    <string name="register_email_hint">Enter your email</string>
+    <string name="register_phone_number_hint">Enter your phone number</string>
+    <string name="register_button">REGISTER</string>
 </resources>

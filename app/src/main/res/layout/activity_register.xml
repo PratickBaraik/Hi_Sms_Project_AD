@@ -14,7 +14,7 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:hint="Enter full name"
+        android:hint="@string/register_full_name_hint"
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -32,7 +32,7 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:hint="Enter password"
+        android:hint="@string/register_password_hint"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -50,7 +50,7 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:hint="Re-enter password"
+        android:hint="@string/register_re_password_hint"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -66,7 +66,7 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:hint="Enter email"
+        android:hint="@string/register_email_hint"
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -84,7 +84,7 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:hint="Enter phone number"
+        android:hint="@string/register_phone_number_hint"
         app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -103,8 +103,6 @@
         android:layout_margin="7dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="REGISTER"
+        android:text="@string/register_button"
         android:textSize="16sp" />
-
-
 </LinearLayout>
