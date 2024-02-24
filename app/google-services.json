@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720171623214",
+    "project_id": "hisms-d3ba4",
+    "storage_bucket": "hisms-d3ba4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720171623214:android:0181ac62898083565c50bf",
+        "android_client_info": {
+          "package_name": "com.example.hisms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhhyvEK3EjN2eDXkrS9VohZOE2eptpHIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
