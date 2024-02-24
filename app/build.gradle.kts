@@ -43,6 +43,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("com.google.firebase:firebase-auth-ktx:22.3.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -53,4 +54,7 @@ dependencies {
 
     // adding firebase analytics dependency
     implementation("com.google.firebase:firebase-analytics")
+
+    // adding authentication dependency for registration
+    implementation("com.google.firebase:firebase-auth")
 }
